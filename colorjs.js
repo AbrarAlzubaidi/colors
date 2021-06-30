@@ -20,12 +20,14 @@ while(!colorName)
 }
   if(colorName=="blue")
   {
-     alert(" Oh really, it is my favorite too have a nice read ^_^ " + username )
+     alert(" Oh really, it is my favorite too have a nice read ^_^ " + username +", you can see your name and your favorite color at the end of the page " )
      console.log(username+" likes  "+colorName)
 
   }
   else{
-    alert(" your favorite color is "+colorName+" , that's intresting  " +username +", have a nice read ^_^" )
+    alert(" your favorite color is "+colorName+" , that's intresting  " +username +", have a nice read ^_^" +" , you can see your name and your favorite color at the end of the page ")
          console.log(username+" likes  "+colorName)
 
   }
+ 
+ document.write("<h3>"+username+" likes "+colorName+"</h3>")
