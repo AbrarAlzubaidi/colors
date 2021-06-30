@@ -1,5 +1,6 @@
 var username
-username=prompt("Please can you enter your name ^_^")
+confirm("this page won't make you enter your sensitive private information like your email or phone ^_^ ")
+username=prompt("Please can you enter your name to welcome you ^_^")
 
 while(!username)
 {
