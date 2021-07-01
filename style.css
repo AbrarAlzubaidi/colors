@@ -1,0 +1,46 @@
+#purple{
+  color:purple 
+}
+
+#blue{
+
+  color:darkblue
+}
+
+.family1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.family2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.family3{
+  font-family: "Copperplate",  Fantasy;
+
+}
+
+/* #headerFontSize{
+   font-size: 70px;
+} */
+
+header{
+  height: 90px;
+}
+h1{
+   font-size: 60px;
+}
+header ul{
+
+  position: absolute;
+  left: 85%;
+  top :10%;
+  float: right;
+}
+header li{
+  display: inline-block;
+}
+
+header a{
+  text-decoration: none
+}
