@@ -13,7 +13,7 @@ while(!username)
 }
  alert(" welcome to this website ^_^ " +username )
 
-  var colorName=prompt("could you tell me what is your favorite color")
+  var colorName=prompt("could you tell me what is your favorite color (red,blue,green,yellow,orange")
   
   // if user does not enter color
 while(!colorName)
