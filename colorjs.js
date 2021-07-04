@@ -22,9 +22,15 @@ while(!username)
 }
  alert(" welcome to this website ^_^ " +username )
 
+<<<<<<< HEAD
    colorName=prompt("could you tell me what is your favorite color (red,blue,green,yellow,orange,purple)")
 
    // if user does not enter color
+=======
+  var colorName=prompt("could you tell me what is your favorite color (red,blue,green,yellow,orange")
+  
+  // if user does not enter color
+>>>>>>> 981f2e35a1dff7638e06686a40327bfd9fde4a30
 while(!colorName)
 {
   alert(":( oh so you won't to till me your favorite color, but i'll appreciate if you tell me ^_^")
