@@ -1,31 +1,31 @@
-#purple{
-  color:purple 
+#p1{
+  color:#E8F0F2 ;
+  font-size: 20px;
+  background:black;
 }
 
-#blue{
+#p2{
+  color:#E6DDC6;
+    font-size: 20px;
+      background: black;
 
-  color:darkblue
 }
 
 .family1 {
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
-.family2 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
 
-.family3{
-  font-family: "Copperplate",  Fantasy;
-
-}
-
-/* #headerFontSize{
+#headerFontSize{
    font-size: 70px;
-} */
+}
 
 header{
   height: 90px;
+  background:#185ADB; 
+  color:white;
+  
 }
 h1{
    font-size: 60px;
@@ -33,14 +33,76 @@ h1{
 header ul{
 
   position: absolute;
-  left: 85%;
-  top :10%;
+  left:60%;
+  top :3%;
   float: right;
+  font-size: 30px;
+
 }
 header li{
   display: inline-block;
+  margin: 30px;
 }
 
 header a{
-  text-decoration: none
+  text-decoration: none;
+    color: white;
+
 }
+
+main {
+  margin: 50px;}
+
+  body {
+   
+ background-color: black;
+  }
+
+  
+
+  #firstSection{
+    margin: 30px;
+    color: red;
+  }
+
+  #secondSection{
+    margin: 30px;
+    color: orangered;
+  }
+
+  #thirdSection{
+    margin: 30px;
+    color: yellow;
+  }
+
+  #fourthSection{
+    margin: 30px;
+    color: green;
+  }
+
+  #fifthSection{
+    margin: 30px;
+    color: blue;
+  }
+#sixthSection{
+    margin: 30px;
+    color:purple;
+  }
+  h3 {
+    font-size: 20px;
+    color:yellow;
+    background: black;
+
+      }
+
+section{
+  display: inline-block;
+
+  }
+
+  footer{
+    background: blue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
